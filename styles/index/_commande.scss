@@ -1,0 +1,10 @@
+.commande {
+  .text {
+    @include childCenter;
+
+    p {
+      text-align: center;
+      margin: 12px 0;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  background: #000000fb;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 32px;
+  color: #fff;
+
+  p {
+    color: #d45092;
+  }
+
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px 0;
+  p {
+    font-weight: 900;
+    color: $black;
+  }
+}
